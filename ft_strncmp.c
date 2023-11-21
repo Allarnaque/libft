@@ -6,12 +6,13 @@
 /*   By: allan <allan@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 13:59:38 by allan             #+#    #+#             */
-/*   Updated: 2023/11/14 03:06:46 by allan            ###   ########.fr       */
+/*   Updated: 2023/11/21 16:18:10 by allan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
+
+int ft_strncmp(const char *s1, const char *s2, size_t n);
 
 int ft_strncmp(const char *s1, const char *s2, size_t n)
 {

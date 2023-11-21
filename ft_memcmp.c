@@ -6,11 +6,13 @@
 /*   By: allan <allan@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/13 15:42:13 by allan             #+#    #+#             */
-/*   Updated: 2023/11/14 03:06:41 by allan            ###   ########.fr       */
+/*   Updated: 2023/11/21 16:18:20 by allan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
+
+int ft_memcmp(const void *s1, const void *s2, size_t n);
 
 int ft_memcmp(const void *s1, const void *s2, size_t n)
 {

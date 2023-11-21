@@ -6,12 +6,13 @@
 /*   By: allan <allan@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/14 14:11:49 by allan             #+#    #+#             */
-/*   Updated: 2023/11/15 02:47:07 by allan            ###   ########.fr       */
+/*   Updated: 2023/11/21 20:55:51 by allan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdio.h>
+#include "libft.h"
+
+char *ft_strnstr(const char *big, const char *little, size_t len);
 
 char *ft_strnstr(const char *big, const char *little, size_t len)
 {
@@ -50,7 +51,7 @@ char *ft_strnstr(const char *big, const char *little, size_t len)
 
 int main()
 {
-    const char big[] = "hehehehel";
+    const char big[] = "bohehehel";
     const char little[] = "he";
     size_t len = 9;
     printf("%s\n", ft_strnstr(big, little, len));

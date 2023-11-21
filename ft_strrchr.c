@@ -6,11 +6,13 @@
 /*   By: allan <allan@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 23:10:46 by allan             #+#    #+#             */
-/*   Updated: 2023/11/13 13:58:58 by allan            ###   ########.fr       */
+/*   Updated: 2023/11/21 16:16:04 by allan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include <libft.h>
+
+char    *ft_strrchr(const char *s, int c);
 
 char    *ft_strrchr(const char *s, int c)
 {

@@ -6,13 +6,13 @@
 /*   By: allan <allan@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/12 14:12:31 by allan             #+#    #+#             */
-/*   Updated: 2023/11/12 23:07:45 by allan            ###   ########.fr       */
+/*   Updated: 2023/11/21 16:15:11 by allan            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <unistd.h>
-#include <ctype.h>
+#include <libft.h>
+
+int    ft_toupper(int ch);
 
 int    ft_toupper(int ch)
 {
